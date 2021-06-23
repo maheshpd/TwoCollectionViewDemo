@@ -13,6 +13,8 @@
 		B57BB63926838BCA0062C844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57BB63726838BCA0062C844 /* Main.storyboard */; };
 		B57BB63B26838C320062C844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57BB63A26838C320062C844 /* Assets.xcassets */; };
 		B57BB63E26838C320062C844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57BB63C26838C320062C844 /* LaunchScreen.storyboard */; };
+		B57BB64826838EED0062C844 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BB64726838EED0062C844 /* CollectionViewCell.swift */; };
+		B57BB64B26838F020062C844 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BB64A26838F020062C844 /* CollectionViewCell2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B57BB63A26838C320062C844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57BB63D26838C320062C844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57BB63F26838C320062C844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57BB64726838EED0062C844 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B57BB64A26838F020062C844 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B57BB63A26838C320062C844 /* Assets.xcassets */,
 				B57BB63C26838C320062C844 /* LaunchScreen.storyboard */,
 				B57BB63F26838C320062C844 /* Info.plist */,
+				B57BB64726838EED0062C844 /* CollectionViewCell.swift */,
+				B57BB64A26838F020062C844 /* CollectionViewCell2.swift */,
 			);
 			path = TwoCollectionViewDemo;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				B57BB63626838BCA0062C844 /* ViewController.swift in Sources */,
 				B57BB63226838BCA0062C844 /* AppDelegate.swift in Sources */,
+				B57BB64B26838F020062C844 /* CollectionViewCell2.swift in Sources */,
+				B57BB64826838EED0062C844 /* CollectionViewCell.swift in Sources */,
 				B57BB63426838BCA0062C844 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
